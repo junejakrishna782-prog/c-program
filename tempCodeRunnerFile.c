@@ -2,7 +2,7 @@
 int main()
 { FILE *fptr;
     fptr = fopen("test.txt","r");
-
+//test
     char ch;
     fscanf(fptr,"%c",&ch);
     printf("chracter = %c",ch);
